@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto con Bootstrap</title>
+  
+  <!-- Bootstrap CSS (CDN) -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+
+  
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="contacto.html"><img src="perfil.jpeg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+        Cynthia Solís</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="sobre_mi.html">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Formacion Academica.html">Formación Académica</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Experiencias.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Experiencias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Empresas.html">Empresas</a></li>
+              <li><a class="dropdown-item" href="Restaurantes.html">Restaurantes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Música.html">Música</a></li>
+            </ul>   
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Contáctame</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  
+</head>
+<body>
+  
+  <div class="container text-center mt-5">
+
+    <h1 class="text-primary">¡Hola soy Cynthia!</h1>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="jugueria1.jpg" class="d-block w-100" alt="Logo de marca">
+          </div>
+          <div class="carousel-item">
+            <img src="adm.jpg" class="d-block w-100" alt="Admistracion">
+          </div>
+          <div class="carousel-item">
+            <img src="proyecto1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <p class="lead">Este es una muestra de todo lo que puedo hacer.</p>
+    <button href="Música.html" class="btn btn-primary" >Haz clic</button>
+    <p class="lead">Para ver más.</p>
+    <div class="card" style="width: 18rem;">
+        <img src="portafolio.jpeg" class="card-img-top" alt="Orcotuna">
+        <div class="card-body">
+          <h5 class="card-title">Orquesta Show Internacional Generales de Huancayo</h5>
+          <p class="card-text">Amenizamos todo tipo de eventos como cumpleaños, bautizos, santiagos.</p>
+          <a href="Música.html" class="btn btn-primary">Ver más</a>
+        </div>
+    </div>
+  
+  <!-- Bootstrap JS (CDN) -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
